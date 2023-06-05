@@ -1,9 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T12:34:20.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" version="21.3.7" etag="cJ2fXp3JyYC684POecYb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T13:30:14.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="XdAU9Gft9-p3MXOTISrf" version="21.3.7" type="github">
   <diagram name="Página-1" id="o8E-G30H7kSV8xSjPkYZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1366" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pvLnifsORNfYKUMhp1TU-1" value="CLIENTE" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="44" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-2" value="ADMINISTRADOR &lt;br&gt;DO SISTEMA" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-4" value="APP -SOFTWARE" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="545" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="117" y="40" width="595" height="595" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-7" value="Adiciona Produto ao Carrinho de Compras" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-8" value="Rastreia Status de Entrega" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-9" value="&lt;br&gt;&lt;span style=&quot;font-size:12.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Calibri;&lt;br/&gt;mso-fareast-theme-font:minor-latin;color:black;mso-color-alt:windowtext;&lt;br/&gt;background:#F7F7F8;mso-ansi-language:PT-BR;mso-fareast-language:EN-US;&lt;br/&gt;mso-bidi-language:AR-SA&quot;&gt;&lt;br&gt;Registra Pagamento do Cliente&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-11" value="&lt;br&gt;&lt;span style=&quot;font-size:12.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Calibri;&lt;br/&gt;mso-fareast-theme-font:minor-latin;color:black;mso-color-alt:windowtext;&lt;br/&gt;background:#F7F7F8;mso-ansi-language:PT-BR;mso-fareast-language:EN-US;&lt;br/&gt;mso-bidi-language:AR-SA&quot;&gt;Visualiza Status e &lt;br&gt;Informações do Produto&lt;/span&gt;&lt;br&gt;&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="465" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-12" value="Ver Histórico de Compras&amp;nbsp;&lt;span style=&quot;font-size:11.0pt;line-height:107%;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:&lt;br/&gt;PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pvLnifsORNfYKUMhp1TU-1" target="pvLnifsORNfYKUMhp1TU-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.031;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="200" as="sourcePoint" />
+            <mxPoint x="246" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pvLnifsORNfYKUMhp1TU-1" target="pvLnifsORNfYKUMhp1TU-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="200" as="sourcePoint" />
+            <mxPoint x="246" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="210" as="sourcePoint" />
+            <mxPoint x="226" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.05;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="210" as="sourcePoint" />
+            <mxPoint x="256" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-19" value="Enviar e receber mensagem no Chat Online" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="220" as="sourcePoint" />
+            <mxPoint x="205" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-21" value="Realiza o seu cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-22" value="Efetua pagamento no APP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="385" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="220" as="sourcePoint" />
+            <mxPoint x="256" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-24" value="Cadastra produtos no APP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-25" value="Ver relatório de comprar - gráfico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-26" value="Ver Clientes Cadastrados e Produtos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="220" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="230" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-30" value="Cadastrar Promoções e Preços" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="270" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvLnifsORNfYKUMhp1TU-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.291;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="pvLnifsORNfYKUMhp1TU-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="280" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
